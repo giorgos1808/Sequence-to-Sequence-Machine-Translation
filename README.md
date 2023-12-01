@@ -36,13 +36,11 @@ This file defines the Seq2Seq model with attention.
   - Parameters: `encoder`, `decoder`, `trg_voc`.
   - Forward method: Takes source and target sequences and returns the decoder outputs.
 
-### 3. train_and_evaluate.py
+### 3. train.py
 
 This file contains functions for training and evaluating the seq2seq models.
 
 - Functions: `train`, `evaluate`, `epoch_time`, `count_parameters`.
-
-### 4. main.py
 
 This file demonstrates the usage of the seq2seq models on the Multi30k dataset.
 
