@@ -46,15 +46,10 @@ This file demonstrates the usage of the seq2seq models on the Multi30k dataset.
 
 - Functions: `tokenizer_ger`, `tokenizer_eng`, `main`.
 
-## Dependencies
+### 4. lstm.yml
 
-- PyTorch
-- torchtext
-- spacy
+The `lstm.yml` file contains a YAML configuration for managing project dependencies. You can use this file to create a conda environment or install the required packages using:
 
-## Usage
-
-1. Install the required dependencies:
-
-   ```bash
-   pip install torch torchtext spacy
+```bash
+conda env create -f lstm.yml
+conda activate lstm
